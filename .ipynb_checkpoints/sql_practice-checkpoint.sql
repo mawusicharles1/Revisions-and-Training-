@@ -39,9 +39,7 @@ VALUES (" 1" , "Jay", "myles", "jmyles@edu.com","alberta", "CAN"),
  (" 4" , "stwart ", "hays", "Hayss@edu.com","Toronto", "USA"),
  (" 5" , "Pierre ", "munire ", "munper@edu.com","alberta", "CAN");
  
- SELECT COUNT(country), city FROM author
- GROUP BY city ;
-
+ SELECT * FROM author;
 
  
 
